@@ -1,0 +1,35 @@
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  margin: 0 auto;
+}
+label {
+    margin-bottom: 0.5em;
+    font-weight: bold;
+  }
+  input,
+select
+ {
+  padding: 0.5em;
+  border-radius: 5px;
+  border: 1px solid #ae2020ee;
+  margin-bottom: 1em;
+  font-size: .9em;
+  width: 100%;
+}
+#reset,#submit{
+    width: 50%;
+    color: rgb(72, 25, 211);
+    background-color: #3fdcf8;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+
+}
