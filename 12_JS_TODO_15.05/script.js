@@ -3,15 +3,7 @@ const addTaskButton = document.getElementById("addTask");
 const taskListUl = document.getElementById("taskList");
 
 addTaskButton.addEventListener("click", addTask);
-// taskListUl.addEventListener("click", (e) => {
-//     // console.log(e);
-//   if (e.target.tagName === "BUTTON") {
-//     e.target.parentElement.remove();
-//   }
-//   if (e.target.tagName === "BUTTON") {
-//    e.target.parentElement.remove();
-//   }
-// });
+
 taskListUl.addEventListener("click", (e) => {
   if (e.target.tagName === "BUTTON") {
     if (e.target.textContent === "Done") {
