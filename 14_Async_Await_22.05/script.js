@@ -74,3 +74,31 @@ function displayUsersDetails(user) {
   userDetailsDiv.append(nameHeading, nickName, email, phone);
   userDetailsDiv.classList.add("userDetailsDiv");
 }
+
+/*(async function fetchAndDisplayUsers() {
+    try {
+        const res = await fetch(url);
+        const users = await res.json();
+
+        users.forEach((user) => {
+            const li = document.createElement("li");
+            li.innerText = user.name;
+            userList.append(li);
+        });
+
+        let filteredUsers = users
+        displayUsers(users);
+
+        searchInput.addEventListener("input", () => {
+            const searchTerm = searchInput.value.toLowerCase();
+            filteredUsers = users.filter((user) =>
+                user.name.toLowerCase().includes(searchTerm)
+            );
+            displayUsers(filteredUsers);
+        });
+
+    } catch (error) {
+        console.log('Error fetching users', error);
+    }
+})();
+*/ 
