@@ -12,7 +12,7 @@ const UserList = () => {
           const data = await response.json();
           setUsers(data);
         } catch (error) {
-          console.log("Error fetching users:", error);
+          console.log("Error:", error);
         }
       };
   
